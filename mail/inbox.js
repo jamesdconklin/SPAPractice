@@ -23,6 +23,8 @@ class Inbox {
   renderMessage(message) {
     let li = document.createElement("li");
     li.className = "message";
+
+    //Google JSX
     let fromSpan = document.createElement("span");
     fromSpan.className = "from";
     fromSpan.innerText = message.from;
